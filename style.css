@@ -36,9 +36,78 @@ a, a:hover {
 }
 
 .info {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: flex-end;
+  margin-left: 50px;
+  margin-right: 50px;
   padding: 20px;
+}
+
+.pageTitle {
+  text-align: center;
+}
+
+.about, .companies, .products {
+  background-color: #310A31;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.assets {
+  background-color: #310A31;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bezosCompanies {
+  background-color: #310A31;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.wealthBreakDown {
+  background-color: #310A31;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.bezosSalary {
+  background-color: #310A31;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cheapskate {
+  background-color: #310A31;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h4, h3, h2 {
+  padding: 0px;
+}
+
+.points {
+  background-color: #310A31;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
