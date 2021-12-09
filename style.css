@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&family=Pontano+Sans&family=Poppins&family=Quicksand&family=Urbanist&family=Vast+Shadow&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -14,6 +16,7 @@ body, html {
   display: flex;
   justify-content: space-around;
   background-color: #847996;
+  font-family: 'Urbanist', sans-serif;
 }
 
 .header a {
@@ -39,10 +42,28 @@ a, a:hover {
   margin-left: 50px;
   margin-right: 50px;
   padding: 20px;
+  font-family: 'Urbanist', sans-serif;
 }
 
 .pageTitle {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #98C1B3;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .about, .companies, .products {
@@ -52,76 +73,81 @@ a, a:hover {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 10px;
 }
 
-.assets {
+.own, .product {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  padding: 1vmin;
+  text-align: justify;
+  font-size: 18px;
+}
+.assets, .bezosCompanies, .wealthBreakDown, .bezosSalary, .cheapskate {
   background-color: #310A31;
   margin: 20px;
   padding-top: 1px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-.bezosCompanies {
-  background-color: #310A31;
-  margin: 20px;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.wealthBreakDown {
-  background-color: #310A31;
-  margin: 20px;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.bezosSalary {
-  background-color: #310A31;
-  margin: 20px;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.cheapskate {
-  background-color: #310A31;
-  margin: 20px;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  border-radius: 10px;
 }
 
 h4, h3, h2 {
   padding: 0px;
 }
 
-.points {
+h3 {
+  color: #87A8AE;
+}
+
+h4 {
+  color: #87A8AE;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.infographic {
+  text-align: center;
+  color: #F4ECD6;
+}
+
+.workers, .solutions {
   background-color: #310A31;
   margin: 20px;
   padding-top: 1px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 5px;
-  /* display: flex;
-  height: auto;
-  width: 50%;
-  flex: 1; */
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1vmin;
-  grid-row-gap: 1vmin; */
+  border-radius: 10px;
 }
 
-.company {
+.company, .money {
   display: flex;
   justify-content: space-around;
+}
+
+.cheap, .points {
+  padding-left: 150px;
+  padding-right: 150px;
+  vertical-align: middle;
+}
+
+.money {
+  padding: 0px;
 }
