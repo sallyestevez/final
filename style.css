@@ -101,17 +101,20 @@ h4, h3, h2 {
 
 h3 {
   color: #87A8AE;
+  font-size: 22px;
 }
 
 h4 {
   color: #87A8AE;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 p {
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 18px;
 }
 
 img {
