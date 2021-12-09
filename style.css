@@ -110,4 +110,18 @@ h4, h3, h2 {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 5px;
+  /* display: flex;
+  height: auto;
+  width: 50%;
+  flex: 1; */
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin; */
+}
+
+.company {
+  display: flex;
+  justify-content: space-around;
 }
