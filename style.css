@@ -8,37 +8,34 @@ body, html {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #5B4264;
-  color: #8698A6;
+  background-color: #BEE9E8;
+  color: #CAE9FF;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: #847996;
+  background-color: #1B4965;
   font-family: 'Urbanist', sans-serif;
-  position: sticky;
-  top: 0;
-  /* width: 100%; */
 }
 
 .header a {
-  color: #A7CAB1;
+  color: #79C3D3;
   text-decoration: none;
 }
 
 .header a:hover {
-  color: #F4ECD6;
+  color: #BEE9E8;
 }
 
 a, a:visited, a:active {
   font-weight: bold;
-  color: #A7CAB1;
+  color: #3F8098;
   text-decoration: none;
 }
 
 a, a:hover {
-  color: #88B7B5;
+  color: #5FA8D3;
 }
 
 .info {
@@ -51,7 +48,7 @@ a, a:hover {
 .pageTitle {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  color: #98C1B3;
+  color: #3F8098;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -62,6 +59,7 @@ a, a:hover {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: #62B6CB;
 }
 
 .title {
@@ -69,8 +67,11 @@ a, a:hover {
   margin-bottom: 10px;
 }
 
-.about, .companies, .products {
-  background-color: #310A31;
+.about, .companies, .products, .assets,
+.bezosCompanies, .wealthBreakDown, .bezosSalary,
+.cheapskate, .backgroundInfo, .pandemic, .workers, .solutions {
+  /* background-color: rgba(115, 153, 178, .75); */
+  background-color: #79C3D3;
   margin: 20px;
   padding-top: 1px;
   padding-bottom: 10px;
@@ -88,27 +89,18 @@ a, a:hover {
   text-align: justify;
   font-size: 18px;
 }
-.assets, .bezosCompanies, .wealthBreakDown, .bezosSalary, .cheapskate {
-  background-color: #310A31;
-  margin: 20px;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
-}
 
 h4, h3, h2 {
   padding: 0px;
 }
 
 h3 {
-  color: #87A8AE;
+  color: #1B4965;
   font-size: 22px;
 }
 
 h4 {
-  color: #87A8AE;
+  color: #1B4965;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 20px;
@@ -130,17 +122,7 @@ img {
 
 .infographic {
   text-align: center;
-  color: #F4ECD6;
-}
-
-.backgroundInfo, .pandemic, .workers, .solutions {
-  background-color: #310A31;
-  margin: 20px;
-  padding-top: 1px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 10px;
+  color: #BEE9E8;
 }
 
 .company, .money {
